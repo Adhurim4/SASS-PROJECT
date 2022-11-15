@@ -1,0 +1,24 @@
+@mixin display-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin reset-mp{
+  margin: 0;
+  padding: 0;
+}
+
+@mixin image-cover{
+background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+@mixin framemove($adur, $adel, $afill){
+  animation-duration: $adur;
+	animation-delay: $adel;
+	animation-fill-mode: $afill;
+}
+  
